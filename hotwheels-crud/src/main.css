@@ -1,0 +1,98 @@
+.home-div{
+    background-image: url('./assets/pic4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-div{
+    background-image: url('./assets/pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carform-div{
+    background-image: url('./assets/pic3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.carlist-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/pic1.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.carlist-div h2 {
+    margin-bottom:9vh; 
+}
+
+.carlist-div ul{
+    background-color: #fc641c;
+    padding: 20px;
+    margin-bottom: 40vh;
+    border-radius: 10px;
+
+}
+.home-div h1, h2{
+    color: white;
+    font-size: 70px;
+}
+
+.home-div h1{
+    margin-top: -100px;
+}
+
+.home-div h2{
+    font-size: 40px;
+}
+
+.about-div p{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    width: 700px;
+}
+
+.p-container{
+    background-color: #fc641c;
+    margin-top: -70px;
+    border-radius: 10px;
+}
+
+.form-elements{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: transparent;
+}
+
+.form-elements input,
+.form-elements button{
+    margin-bottom: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.form-elements button:hover{
+    color: #fc641c ;
+}
